@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.header1{
+  padding-top: 2%;
+  padding-bottom: 0.5%;
+  background: rgb(209, 228, 236);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.hr1{
+  color: black;
+  margin: 0;
+  
+}
+
+.hr2{
+  color: #07cbcb;
+  margin: 0;
+}
+
+.header2{
+  background: rgb(227, 238, 243);
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  padding: 14px 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}

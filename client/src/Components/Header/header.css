@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    background: rgb(199, 205, 208 / 8%);
+    align-items: center;
+}
+
+.logo{
+    height: 10%;
+    width: 10%
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+.points{
+    border: 1px solid;
+    border-radius: 10%/50%;
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    gap: 10%;
+    width: 60px
+}
+
+.grade{
+    border: 1px solid;
+    border-radius: 100%;
+    margin: 1%;
+    margin-top: 2%;
+    padding: auto;
+    height: 30px;
+    text-align: center;
+    width: 30px;
+}
